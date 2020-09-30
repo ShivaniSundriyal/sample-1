@@ -18,7 +18,7 @@ cin>>a[i];
 }
 void selection_sort()
 {
-
+T temp;
 for(int i=0;i<n;i++)
 {
 for(int j=i+1;j<n;j++)
