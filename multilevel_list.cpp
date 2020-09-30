@@ -12,7 +12,7 @@ Node *down;
 };
 
 Node *flattenList(Node *node) {
-if(node == 0)
+if(node == NULL)
 return NULL;
 static Node *last;
 last = node;
